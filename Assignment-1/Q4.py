@@ -5,7 +5,7 @@
     #         numbers.remove(n)
     # return numbers
 #this code is iterating over the same array which we are going to change so it doesnt work
-#in the below code i iterated over a copy
+#In the below code i iterated over a copy
 
 def remove_even(numbers):
     for n in numbers[:]:
